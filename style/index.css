@@ -160,7 +160,9 @@ h1 {
 footer {
   text-align: center;
 }
-
+.foot {
+  background-color: black;
+}
 /*Media Query*/
 @media (max-width: 800px) {
   /*navigation styles */
@@ -190,10 +192,19 @@ footer {
   .xtrcontain div {
     width: 50%;
   }
+  /* footer style*/
+  footer {
+    background-color: grey;
+    padding: 5%;
+  }
 }
 
 @media (max-width: 500px) {
   nav.po {
     text-align: center;
+  }
+  footer {
+    background-color: grey;
+    padding: 5%;
   }
 }
