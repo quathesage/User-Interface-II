@@ -159,6 +159,9 @@ h1 {
   text-align: center;
 }
 
+section.contain {
+  margin-top: 3%;
+}
 .xtrcontain {
   display: flex;
   flex-wrap: wrap;
