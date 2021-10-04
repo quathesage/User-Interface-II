@@ -158,7 +158,17 @@ h1 {
   font-size: 7rem;
   text-align: center;
 }
-
+button {
+  font-size: 2rem;
+  border-radius: 29px;
+  padding: 1%;
+  background-color: #696969;
+}
+button:hover {
+  color: #696969;
+  background-color: #fff;
+  transition: 0.4s;
+}
 section.contain {
   margin-top: 3%;
 }
